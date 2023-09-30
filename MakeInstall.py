@@ -19,7 +19,8 @@ class WinUSB:
         self.scripts = "Scripts"
         self.s_path  = os.path.join(os.path.dirname(os.path.realpath(__file__)), self.scripts)
         # self.dd_url  = "http://www.chrysocome.net/downloads/ddrelease64.exe"
-        self.dd_url  = "https://github.com/corpnewt/gibMacOS/files/4573241/ddrelease64.exe.zip" # Rehost due to download issues
+        #self.dd_url  = "https://github.com/corpnewt/gibMacOS/files/4573241/ddrelease64.exe.zip" # Rehost due to download issues
+        self.dd_url  = "http://www.chrysocome.net/downloads/23b06224f867bc54028d2d6602cc04e2/ddrelease64.exe"
         self.dd_name = ".".join(os.path.basename(self.dd_url).split(".")[:-1]) # Get the name without the last extension
         self.z_json = "https://sourceforge.net/projects/sevenzip/best_release.json"
         self.z_url2 = "https://www.7-zip.org/a/7z1806-x64.msi"
